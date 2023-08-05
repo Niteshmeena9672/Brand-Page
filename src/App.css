@@ -1,22 +1,30 @@
+/* Import Google Fonts Poppins with various font weights */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
-  --red : #D01C28;
-  --gray:#2E2E2E
+/* Define custom CSS variables */
+:root {
+  --red: #D01C28; /* Define a red color variable */
+  --gray: #2E2E2E; /* Define a gray color variable */
 }
-*{
+
+/* Reset margins for all elements */
+* {
   margin: 0;
 }
-.container{
+
+/* Create a container with a maximum width of 1280px centered horizontally */
+.container {
   margin: 0px auto;
   max-width: 1280px;
 }
 
-body{
+/* Set the font family for the entire body using the imported Google Font */
+body {
   font-family: 'Poppins', sans-serif;
 }
 
-nav{
+/* Style for the navigation bar */
+nav {
   display: flex;
   justify-content: space-between;
   max-width: 1280px;
@@ -24,13 +32,17 @@ nav{
   height: 72px;
   align-items: center;
 }
-nav ul{
+
+/* Style for the navigation bar list items */
+nav ul {
   display: flex;
   list-style: none;
   gap: 24px;
 }
-button{
-  all:unset;
+
+/* Style for custom buttons */
+button {
+  all: unset;
   padding: 6px 16px;
   /* margin-left: 10px; */
   background-color: var(--red);
@@ -38,17 +50,23 @@ button{
   color: white;
   font-weight: 500;
 }
+
+/* Styling for the hero section */
 .hero {
   display: flex;
   align-items: center;
   /* height: calc(100vh - 72px); */
 }
-.hero h1{
+
+/* Styling for the main heading in the hero section */
+.hero h1 {
   font-size: 108px;
   font-weight: 800;
   line-height: 102px;
 }
-.hero p{
+
+/* Styling for the paragraph in the hero section */
+.hero p {
   color: var(--gray);
   font-size: 24px;
   font-weight: 500;
@@ -56,26 +74,36 @@ button{
   margin-top: 24px;
   max-width: 500px;
 }
-.hero-btn{
+
+/* Styling for buttons in the hero section */
+.hero-btn {
   margin-top: 48px;
   display: flex;
   gap: 40px;
 }
-.secondary-btn{
+
+/* Styling for secondary buttons */
+.secondary-btn {
   background-color: transparent;
   border: 1px solid gray;
   color: gray;
 }
-.shopping p{
+
+/* Styling for the shopping paragraph */
+.shopping p {
   font-size: 20px;
   font-weight: 500;
 }
-.hero-content{
+
+/* Styling for the content within the hero section */
+.hero-content {
   display: flex;
   gap: 36px;
   flex-direction: column;
 }
-.brand-icons{
+
+/* Styling for the brand icons */
+.brand-icons {
   display: flex;
   gap: 14px;
   margin-top: 10px;
