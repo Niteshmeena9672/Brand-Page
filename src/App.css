@@ -8,7 +8,7 @@
   margin: 0;
 }
 .container{
-  margin: 0 auto;
+  margin: 0px auto;
   max-width: 1280px;
 }
 
@@ -32,6 +32,7 @@ nav ul{
 button{
   all:unset;
   padding: 6px 16px;
+  /* margin-left: 10px; */
   background-color: var(--red);
   height: 30px;
   color: white;
@@ -39,4 +40,43 @@ button{
 }
 .hero {
   display: flex;
+  align-items: center;
+  /* height: calc(100vh - 72px); */
+}
+.hero h1{
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+}
+.hero p{
+  color: var(--gray);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 24px;
+  max-width: 500px;
+}
+.hero-btn{
+  margin-top: 48px;
+  display: flex;
+  gap: 40px;
+}
+.secondary-btn{
+  background-color: transparent;
+  border: 1px solid gray;
+  color: gray;
+}
+.shopping p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.hero-content{
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+}
+.brand-icons{
+  display: flex;
+  gap: 14px;
+  margin-top: 10px;
 }

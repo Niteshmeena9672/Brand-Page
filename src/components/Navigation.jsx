@@ -1,7 +1,7 @@
 const Navigation = () => {
   return (
-    <nav>
-        <div className="logo container">
+    <nav className="container">
+        <div className="logo">
           <img src="./public/images/brand_logo.png" alt="brand logo" />
         </div>
         <ul>
